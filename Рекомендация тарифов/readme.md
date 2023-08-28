@@ -4,7 +4,9 @@
 
 ## Описание проекта
 
-В вашем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы. Нужно построить модель для задачи классификации, которая выберет подходящий тариф. 
+В нашем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы (из проекта курса «Статистический анализ данных»). Нужно построить модель для задачи классификации, которая выберет подходящий тариф. Предобработка данных не требуется, так как она выполнена заранее.
+
+Постройте модель с максимально большим значением accuracy. Чтобы сдать проект успешно, нужно довести долю правильных ответов по крайней мере до 0.75. Проверьте accuracy на тестовой выборке самостоятельно.
 
 ## Навыки и инструменты
 
@@ -12,12 +14,12 @@
 - **matplotlib**
 - **seaborn**
 - sklearn.metrics.**accuracy_score**
-- sklearn.metrics.**classification_report**
-- sklearn.model_selection.**train_test_split**
+- sklearn.metrics.**f1_score**
 - sklearn.ensemble.**RandomForestClassifier**
 - sklearn.tree.**DecisionTreeClassifier**
 - sklearn.linear_model.**LogisticRegression**
 - sklearn.dummy.**DummyClassifier**
+- sklearn.neighbors.**KNeighborsClassifier**
 
 ## Цель исследования
 
